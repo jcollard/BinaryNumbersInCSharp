@@ -6,6 +6,8 @@ In this activity, you will use C#'s `Convert` utility to explore how computers s
 2. Understand how positive and negative integers are represented in binary.
 3. Understand the difference between Overflow and Underflow errors.
 
+When you're done with this project, you should upload your completed `Program.cs` file to Google Classroom.
+
 ## Create a new C# Project
 
 Let's start by creating a new C# project.
@@ -144,3 +146,7 @@ Notice, the result is a negative number. In fact, the negative number is the min
 When we add two integers together and the resulting value is too large to be represented by the number of available bits, we call this an **Overflow Error**.
 
 Similarly, when we subtract two integers and the difference is too small to be represented by the number of available bits, we call this an **Underflow Error**.
+
+## Submit your Program.cs File
+
+Now that you have completed this activity, you should upload your completed `Program.cs` file to Google Classroom and submit the assignment to let me know you've completed this activity.
