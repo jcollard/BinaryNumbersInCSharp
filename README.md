@@ -8,9 +8,6 @@ store 32-bit integers. By the end of this activity you should understand:
 2. Understand how positive and negative integers are represented in binary.
 3. Understand the difference between Overflow and Underflow errors.
 
-When you're done with this project, you should upload your completed
-`Program.cs` file to Google Classroom.
-
 - [Binary Numbers in C](#binary-numbers-in-c)
   - [Setting up Repository](#setting-up-repository)
     - [Make a copy of this repository](#make-a-copy-of-this-repository)
