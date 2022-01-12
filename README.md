@@ -27,12 +27,6 @@ When you're done with this project, you should upload your completed
   - [Overflow and Underflow Errors](#overflow-and-underflow-errors)
     - [Knowledge Check](#knowledge-check-2)
   - [Submit your Work](#submit-your-work)
-    Hex](#converting-integers-to-binary-and-hex)
-    - [Knowledge Check](#knowledge-check)
-  - [Negative Integers](#negative-integers)
-  - [Overflow and Underflow Errors](#overflow-and-underflow-errors)
-  - [Complete the Quiz.md file](#complete-the-quizmd-file)
-  - [Submit your Work](#submit-your-work)
 
 ## Setting up Repository
 
