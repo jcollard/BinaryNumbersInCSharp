@@ -8,13 +8,89 @@ In this activity, you will use C#'s `Convert` utility to explore how computers s
 
 When you're done with this project, you should upload your completed `Program.cs` file to Google Classroom.
 
-## Create a new C# Project
+- [Binary Numbers in C](#binary-numbers-in-c)
+  - [Setting up Repository](#setting-up-repository)
+    - [Make a copy of this repository](#make-a-copy-of-this-repository)
+    - [Add Mx. Collard as a Collaborator](#add-mx-collard-as-a-collaborator)
+    - [Add a Development Branch](#add-a-development-branch)
+    - [Push your branch to GitHub](#push-your-branch-to-github)
+    - [Create a new C# Project](#create-a-new-c-project)
+    - [Create a Pull Request](#create-a-pull-request)
+  - [Converting integers to Binary and Hex](#converting-integers-to-binary-and-hex)
+  - [Negative Integers](#negative-integers)
+  - [Overflow and Underflow Errors](#overflow-and-underflow-errors)
+  - [Submit your Work](#submit-your-work)
 
-Let's start by creating a new C# project.
+## Setting up Repository
 
-1. Create a new folder on your computer for your C# project.
-2. Next, open the folder using Visual Studio Code
-3. Open a new Terminal
+### Make a copy of this repository
+
+Start by making a copy of this repository.
+
+1. Click the `Use this template` button on the main repository:
+
+![Use Template](images/use_template.png)
+
+2. Name your repository `XXXXXX-BinaryNumbersInCSharp`, replacing the `XXXXXX` with your the first part of your email. (This is so I can easily find it later.)
+3. You may make your repository public **or** private.
+4. You do **not** need to include all of the branches
+
+![Create Repo](images/create_repository.png)
+
+### Add Mx. Collard as a Collaborator
+
+For grading purposes, you need to add me to your repository so I can see your work.
+
+1. On the copied repository go to the settings tab
+
+![Settings](images/settings.png)
+
+2. On the settings page, select the `Manage Access` option on the left.
+
+![Manage Access](images/manage_access.png)
+
+3. On the manage access page, select `Add people`
+
+![Add People](images/addpeople.png)
+
+4. Search for `jcollard` and add me as a collaborator.
+
+### Add a Development Branch
+
+With the exception of the group project, we have mostly been working on the `main` branch of our repositories. This is considered poor practice. The `main` branch is typically reserved for completed work on projects. A secondary branch called `develop` is typically created where you can work without fear of "polluting" the `main` branch.
+
+1. Using GitHub Desktop, Clone your new repository.
+2. Open your project in Visual Studio Code
+3. Use the command palette (Command + Shift + P) to run `Git: Create Branch`
+
+![Create Branch](images/createbranch.png)
+
+4. Name your branch `develop`
+
+![Develop Branch](images/name_develop.png)
+
+### Push your branch to GitHub
+
+By default, a new branch is created locally on your computer (not published). To ensure your work is visible, you need to push your repository to GitHub.
+
+1. Use the command palette to run `Git: Push`
+
+![Git Push](images/git-push.png)
+
+2. You will likely be prompted that your branch is not published. Select `Okay` to publish the branch.
+
+![Publish](images/publish-branch.png)
+
+### Create a new C# Project
+
+Let's start by creating a new C# project in this repository.
+
+Before continuing, verify that you are on your `develop` branch. You can see which branch you are on by looking in the bottom left corner of Visual Studio Code.
+
+![Current Branch](images/current-branch.png)
+
+1. Clone and open this project in Visual Studio Code
+2. In Visual Studio Code, open a new Terminal
    * From the top menu select Terminal > New Terminal
 
 ![New Terminal](images/newTerminal.png)
@@ -34,6 +110,28 @@ If all went well, you should now see several project files in your package explo
 6. Run the project by executing `dotnet run` in your terminal.
 
 ![Run Hello](images/runhello.png)
+
+### Create a Pull Request
+
+Next, you will push your base project to GitHub and create a Pull Request that will allow Mx. Collard (and yourself) to see the changes that have been made to this project.
+
+1. Commit your work. 
+   * Your commit message should be something like `chore: Initialize project`
+2. Push your work
+3. In your web browser, visit your repository
+4. Select the `Pull Request` tab
+   
+![Pull Request Tab](images/select-pull-request.png)
+
+5. Select the `New Pull Request` button
+
+![New PR](images/new-pr.png)
+
+6. Select that you would like to pull your `develop` into your `main` branch.
+
+![Develop](images/select-develop.gif)
+
+
 
 ## Converting integers to Binary and Hex
 
@@ -147,6 +245,6 @@ When we add two integers together and the resulting value is too large to be rep
 
 Similarly, when we subtract two integers and the difference is too small to be represented by the number of available bits, we call this an **Underflow Error**.
 
-## Submit your Program.cs File
+## Submit your Work
 
 Now that you have completed this activity, you should upload your completed `Program.cs` file to Google Classroom and submit the assignment to let me know you've completed this activity.
